@@ -213,10 +213,6 @@ Output: `docs/html/index.html` (open in a browser).
 
 ## Author
 
-**Guzikowski** — university project (PROG2) refined as a portfolio showcase for Modern C++, Qt, and clean layered architecture.
+**Jakub Guzikowski** — university project (PROG2) refined as a portfolio showcase for Modern C++, Qt, and clean layered architecture.
 
 ---
-
-## License
-
-This project is released under the [MIT License](LICENSE).
