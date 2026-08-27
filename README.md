@@ -13,13 +13,6 @@ A clean, layered educational/engineering tool inspired by industrial FBD (IEC 61
 
 > **PL:** Symulator diagramów bloków funkcyjnych (FBD) — silnik dyskretnej symulacji sygnałów + GUI Qt. Projekt zaliczeniowy z naciskiem na czysty podział warstw i Modern CMake.
 
----
-
-## Preview
-
-![FBD Simulator demo](docs/screenshots/demo.png)
-
-*Add a screenshot or short GIF of the Control Panel + Monitoring view to `docs/screenshots/demo.png`.*
 
 ---
 
