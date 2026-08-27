@@ -11,7 +11,7 @@ A clean, layered educational/engineering tool inspired by industrial FBD (IEC 61
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-Doxygen-2C4AA8)](#documentation-doxygen)
 
-> **PL:** Symulator diagramów bloków funkcyjnych (FBD) — silnik dyskretnej symulacji sygnałów + GUI Qt. Projekt portfolio / zaliczeniowy z naciskiem na czysty podział warstw i Modern CMake.
+> **PL:** Symulator diagramów bloków funkcyjnych (FBD) — silnik dyskretnej symulacji sygnałów + GUI Qt. Projekt zaliczeniowy z naciskiem na czysty podział warstw i Modern CMake.
 
 ---
 
