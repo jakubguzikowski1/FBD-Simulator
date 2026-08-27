@@ -1,0 +1,46 @@
+# Doxyfile for FBD Simulator
+# Generate docs:  doxygen Doxyfile
+# Output:         docs/html/index.html
+
+PROJECT_NAME           = "FBD Simulator"
+PROJECT_NUMBER         = "1.0.0"
+PROJECT_BRIEF          = "Function Block Diagram discrete-time simulator (C++17 / Qt 6)"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+
+INPUT                  = src README.md
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp *.md
+EXCLUDE_PATTERNS       = */build/* */cmake-build-*/*
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+
+USE_MDFILE_AS_MAINPAGE = README.md
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+
+HAVE_DOT               = NO
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+CLASS_DIAGRAMS         = YES
+
+WARN_IF_UNDOCUMENTED   = YES
+WARN_NO_PARAMDOC       = YES
+QUIET                  = NO
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+STRIP_FROM_PATH        = src
+STRIP_FROM_INC_PATH    = src

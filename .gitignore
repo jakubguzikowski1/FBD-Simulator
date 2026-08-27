@@ -1,0 +1,150 @@
+# =============================================================================
+# FBD Simulator — .gitignore (C++ / Qt / CMake / IDEs)
+# =============================================================================
+
+# ----- Build artifacts -----
+build/
+cmake-build-*/
+out/
+install/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
+**/*.cmake
+!CMakeLists.txt
+
+# Ninja / Make
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ----- Compiled binaries & objects -----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.gch
+
+# Qt / moc / uic / rcc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*_automoc.cpp
+*_autogen/
+*.moc
+*.qmlc
+*.jsc
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# ----- Visual Studio -----
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+[Dd]ebug/
+[Rr]elease/
+[Rr]elWithDebInfo/
+[Mm]inSizeRel/
+x64/
+x86/
+Win32/
+*.aps
+
+# ----- CLion / JetBrains -----
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+# ----- VS Code / Cursor -----
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+
+# ----- Documentation (generated) -----
+docs/html/
+docs/latex/
+docs/xml/
+docs/rtf/
+html/
+latex/
+doxygen_output/
+*.dox.bak
+
+# ----- Runtime / sample outputs -----
+output.csv
+*.csv
+!docs/**/*.csv
+
+# ----- OS junk -----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+__MACOSX/
+
+# ----- Editors / misc -----
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.orig
+.cache/
+.clangd/
+.clang-tidy.cache/
+compile_flags.txt
+
+# ----- Packages / vcpkg / Conan (local) -----
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# ----- Secrets / local env -----
+.env
+.env.*
+*.pem
+*.key

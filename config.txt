@@ -1,0 +1,15 @@
+# Sample FBD configuration
+SAMPLING 100
+
+BLOCK Const const1 2.5
+BLOCK PeriodicGenerator gen1 1.0 0.5
+BLOCK AddSub sum1 ++
+BLOCK Gain gain1 3.0
+BLOCK Integrator int1
+BLOCK FileWrite sink1 output.csv
+
+CONNECT const1 0 sum1 0
+CONNECT gen1 0 sum1 1
+CONNECT sum1 0 gain1 0
+CONNECT gain1 0 int1 0
+CONNECT int1 0 sink1 0
